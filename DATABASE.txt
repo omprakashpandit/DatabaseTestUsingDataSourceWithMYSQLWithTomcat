@@ -1,0 +1,31 @@
+-- phpMyAdmin SQL Dump
+-- version 2.9.2
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: May 20, 2020 at 02:43 AM
+-- Server version: 5.0.27
+-- PHP Version: 5.2.1
+-- 
+-- Database: `zap`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `employee`
+-- 
+
+CREATE TABLE `employee` (
+  `id` int(11) NOT NULL,
+  `name` varchar(10) NOT NULL,
+  `roll` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `employee`
+-- 
+
+INSERT INTO `employee` (`id`, `name`, `roll`) VALUES 
+(101, 'om', '1'),
+(102, 'ravi', '2');
